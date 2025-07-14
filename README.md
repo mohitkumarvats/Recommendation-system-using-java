@@ -1,15 +1,15 @@
-# 🧠 Java Product Recommendation System
+# Java Product Recommendation System
 
 This project uses **Apache Mahout** to build a basic recommendation engine in Java.
 
-## 📌 Features
+##  Features
 
 - Collaborative filtering using user-based similarity
 - Recommendation based on user preferences
 - Simple CSV-based data model
 - Uses Apache Mahout libraries
 
-## 📂 Files
+##  Files
 
 | File | Description |
 |------|-------------|
@@ -17,7 +17,7 @@ This project uses **Apache Mahout** to build a basic recommendation engine in Ja
 | `data.csv` | Sample user-product rating data |
 | `README.md` | Project documentation |
 
-## ⚙️ How to Run
+## How to Run
 
 1. Make sure you have **Apache Mahout** and dependencies added to your project.
    - Use Maven or manually include Mahout JAR files.
@@ -34,21 +34,21 @@ java -cp .:mahout-core-0.9.jar ProductRecommender
 
 > Replace `:` with `;` on Windows for classpath
 
-## 🧪 Sample Output
+##  Sample Output
 
 ```
-💡 Recommended product ID: 104 (Score: 4.2)
-💡 Recommended product ID: 105 (Score: 3.8)
+Recommended product ID: 104 (Score: 4.2)
+ Recommended product ID: 105 (Score: 3.8)
 ```
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - Pearson Correlation Similarity
 - Nearest N Neighborhood
 - Apache Mahout Taste Recommender
 
-## 🙋 Author
+##  Author
 
 Mohit Kumar | July 2025
